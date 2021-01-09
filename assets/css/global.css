@@ -5,7 +5,7 @@ img { display: block; max-width: 100%; }
 h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 strong, b { font-family: 'Josefin Sans', sans-serif; font-weight: 600; }
 button { font-family: 'Josefin Sans', sans-serif; font-weight: 400; }
-body, html { font-family: 'Josefin Sans', sans-serif; font-size: 16px; font-weight: 400; letter-spacing: 0.05rem; color:#4d4d4d; font-weight: 400; min-height: 100% !important; height: 100%; background: #F4F4F4; }
+body, html { font-family: 'Josefin Sans', sans-serif; font-size: 16px; font-weight: 400; letter-spacing: 0.05rem; color:#4d4d4d; font-weight: 400; height: 100%; min-height: 100% !important; background: #F4F4F4; }
 html { scroll-behavior: smooth; }
 .wrapper { height: 100%; }
 .contentCntr { height: 100%; }
@@ -67,7 +67,7 @@ html { scroll-behavior: smooth; }
 .regular-text { font-family: 'gothambook', 'sans-serif'; }
 .bold-text { font-family: 'Josefin Sans', sans-serif; }
 
-font-family: 'Josefin Sans', sans-serif;t0 { margin-top: 0px; }
+.mg-t0 { margin-top: 0px; }
 .mg-t5 { margin-top: 0.3125rem; }
 .mg-t10 { margin-top: 0.625rem; }
 .mg-t15 { margin-top: 0.9375rem; }
@@ -556,28 +556,37 @@ font-family: 'Josefin Sans', sans-serif;t0 { margin-top: 0px; }
     
 }
 
-
-/* Iphone 5 to Iphone 6,7,8 */
-@media only screen and (min-width: 320px) {
-  body, html { font-size: 12px; }
+/* Media queries for global fonts */
+@media only screen and (min-width: 280px) {
+  body, html { font-size: 10px; } 
 }
-
-/* Iphone 11 */
-@media only screen and (min-width: 391px) { 
-  body, html { font-size: 13px; }
-}
-
-/* Iphone 11 above */
 @media only screen and (min-width: 767px) {
-  body, html { font-size: 14px; }
+  body, html { font-size: 11px; } 
 }
-
-/* Iphone 11 above */
 @media only screen and (min-width: 991px) {
-  body, html { font-size: 15px; }
+  body, html { font-size: 11px; } 
 }
-
-/* Iphone 11 above */
+@media only screen and (min-width: 1199px) {
+  body, html { font-size: 11px; } 
+}
 @media only screen and (min-width: 1299px) {
-  body, html { font-size: 16px; }
+  body, html { font-size: 11.5px; } 
+}
+@media only screen and (min-width: 1399px) {
+  body, html { font-size: 12px; } 
+}
+@media only screen and (min-width: 1499px) {
+  body, html { font-size: 12.5px; } 
+}
+@media only screen and (min-width: 1599px) {
+  body, html { font-size: 13px; } 
+}
+@media only screen and (min-width: 1699px) {
+  body, html { font-size: 13.5px; } 
+}
+@media only screen and (min-width: 1799px) {
+  body, html { font-size: 14px; } 
+}
+@media only screen and (min-width: 1899px) {
+  body, html { font-size: 15px; } 
 }
