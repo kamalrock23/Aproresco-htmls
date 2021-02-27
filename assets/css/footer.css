@@ -1,0 +1,27 @@
+.footerBox { padding: 80px 0 0; background: #00566d; font-size: 1.125rem; }
+.footerBox__list { padding: 0 0.625rem; margin-bottom: 2.5rem; list-style-type: none; }
+.footerBox__list > li { display: block; }
+.footerBox__list > li > a { padding: 0.5rem 0; display: inline-block; color: #f6f9ff; text-decoration: none; font-weight: 300; }
+
+.footerBox__social { padding: 0 0.625rem; margin-bottom: 2.5rem; list-style-type: none; }
+.footerBox__social > li { display: block; }
+.footerBox__social > li > a { padding: 0.5rem 0; display: inline-block; color: #fff; text-decoration: none; font-weight: 300; }
+.footerBox__social > li > a > img { margin-right: 0.625rem; display: inline-block; vertical-align: middle; }
+.footerBox h4 { padding: 0 0.625rem; margin-bottom: 1.25rem; color: #f6f9ff; font-weight: 700; }
+.footerBox__copyright { padding: 1.25rem 0; display: flex; color: #bbbec4; font-weight: 300; justify-content: space-between; background: #004456; }
+.copyright-links { list-style-type: none; display: flex; }
+.copyright-links > li { display: inline; position: relative; }
+.copyright-links > li > a { padding: 0 0.625rem; color: #bbbec4; text-decoration: none; }
+.copyright-links > li > a::after { content: "|"; position: absolute; left: -2px; top: 50%; margin-top: -0.5rem; }
+.copyright-links > li:first-child > a { padding-left: 0; }
+.copyright-links > li:first-child > a::after { display: none; }
+.copyright-links > li > a:hover { text-decoration: underline; }
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .footerBox { padding-top: 10px; font-size: 0.875rem; }
+    .footerBox__social > li > a > img { width: 1.5rem; }
+    .footerBox__logo { width: 10rem; }
+}
